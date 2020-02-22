@@ -1,0 +1,34 @@
+/*ISO-3166 alpha-3 country code*/
+.country { fill: #ddc; }
+.country.CHN { fill: #5276dc; } /*中国*/
+.country.KOR { fill: #5276dc; } /*韩国*/
+.country.JPN { fill: #5276dc; } /*日本*/
+.country.IDN { fill: #5276dc; } /*印尼*/
+.country.CAN { fill: #5276dc; } /*加拿大*/
+.country.FRA { fill: #5276dc; } /*法国*/
+.country.POL { fill: #5276dc; } /*波兰*/
+.country.GBR { fill: #5276dc; } /*英国*/
+.country.ITA { fill: #5276dc; } /*意大利*/
+.country.ESP { fill: #5276dc; } /*西班牙*/
+.country.DEU { fill: #5276dc; } /*德国*/
+.country.AUT { fill: #5276dc; } /*奥地利*/
+.country.CZE { fill: #5276dc; } /*捷克*/
+.country.HUN { fill: #5276dc; } /*匈牙利*/
+.country.NLD { fill: #5276dc; } /*荷兰*/
+.country.CHE { fill: #5276dc; } /*瑞士*/
+.country.SWE { fill: #5276dc; } /*瑞典*/
+.country.FIN { fill: #5276dc; } /*芬兰*/
+.country.DNK { fill: #5276dc; } /*丹麦*/
+.country.BEL { fill: #5276dc; } /*比利时*/
+.country.PR1 { fill: #5276dc; } /*葡萄牙*/
+.country.MLT { fill: #5276dc; } /*马耳他*/
+.country.MCO { fill: #5276dc; } /*摩纳哥*/
+.country.VAT { fill: #5276dc; } /*梵蒂冈*/
+.country.GRC { fill: #5276dc; } /*希腊*/
+.country.LUX { fill: #5276dc; } /*卢森堡*/
+.country.SVK { fill: #5276dc; } /*斯洛伐克*/
+.country.MNE { fill: #5276dc; } /*黑山*/
+.country.BIH { fill: #5276dc; } /*波黑*/
+.country.HRV { fill: #5276dc; } /*克罗地亚*/
+.country.TUR { fill: #5276dc; } /*土耳其*/
+
