@@ -2,7 +2,7 @@
 
 A webpage using D3 to draw world map and mark visited countries.
 
-## Referance
+## Reference
 [**Let's Make a Map**, Mike Bostock, December 30, 2012](https://bost.ocks.org/mike/map/)
 
 ## Preview
