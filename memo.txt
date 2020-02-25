@@ -1,0 +1,13 @@
+***For testing and memo***
+
+**尝试简化css**
+var ids = "CHN KOR JPN IDN CAN FRA POL GBR ITA ESP DEU AUT CZE HUN NLD CHE SWE FIN DNK BEL PR1 MLT MCO VAT GRC LUX SVK MNE BIH HRV TUR";
+
+// var ids = ["CHN", "KOR", "JPN", "IDN", "CAN", "FRA", "POL", "GBR", "ITA", "ESP", "DEU", "AUT", "CZE", "HUN", "NLD", "CHE", "SWE", "FIN", "DNK", "BEL", "PR1", "MLT", "MCO", "VAT", "GRC", "LUX", "SVK", "MNE", "BIH", "HRV", "TUR"];
+
+for (var i = 0; i < document.getElementsByClassName("country").getElementsByClassName(ids).length; i++) {
+document.getElementsByClassName("country").getElementsByClassName(ids)[i].style.fill = "#5276dc";
+}
+document.getElementsByClassName("country").getElementsByClassName(ids)
+
+document.getElementsByClassName("country").getElementsByClassName(ids)[0].style.fill = "#5276dc";
