@@ -3,7 +3,7 @@
 A webpage using D3 to draw world map and mark visited countries.
 
 ## Reference
-[**Let's Make a Map**, Mike Bostock, December 30, 2012](https://bost.ocks.org/mike/map/)
+[**Let's Make a Map**](https://bost.ocks.org/mike/map/), Mike Bostock, December 30, 2012
 
 ## Preview
 [https://emilieczq.github.io/World-Map/](https://emilieczq.github.io/World-Map/)
@@ -17,3 +17,4 @@ You can find more installation methods on [https://github.com/http-party/http-se
 
 ## Usage
 `http-server -p 8008` to start http-server, open _index.html_ in a browser (Chrome prefered).
+Hit CTRL-C to stop the server. If the server is not stopped by hitting CTRL-C, run `sudo lsof -i tcp:8008` to get **PID**, then `sudo kill -9 PID` (replace PID by the PID number you get).
