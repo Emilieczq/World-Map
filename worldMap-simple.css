@@ -32,3 +32,5 @@
 .country.HRV { fill: #5276dc; } /*克罗地亚*/
 .country.TUR { fill: #5276dc; } /*土耳其*/
 
+/*隐藏南极洲*/
+.country.ATA { display: none; }
