@@ -21,7 +21,7 @@
 	height: 100vh;
     position: relative;
     padding: 0;
-    background-image: url(../images/travelTheWorld.jpg);
+    background-image: url(/images/travelTheWorld.jpg);
     background-position: center;
     background-size: cover;
 }
