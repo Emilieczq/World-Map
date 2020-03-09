@@ -14,7 +14,7 @@
 var chart = am4core.create("chartdiv", am4maps.MapChart);
 
 // Set map definition
-chart.geodata = am4geodata_worldLow;
+chart.geodata = am4geodata_worldHigh;
 
 // Set projection
 chart.projection = new am4maps.projections.Miller();
@@ -34,31 +34,14 @@ polygonTemplate.fill = am4core.color("#DDDDDD");
 var hs = polygonTemplate.states.create("hover");
 hs.properties.fill = am4core.color("#AAAAAA");
 
-// Remove Antarctica
-polygonSeries.exclude = ["AQ"];
+// Only include Europ countries
+polygonSeries.include = ["PT", "ES", "FR", "DE", "BE", "NL", "IT", "AT", "GB",
+ "IE", "CH", "LU", "PL", "CZ", "HU", "SE", "FI", "DK", "MT", "MC", "VA", "GR",
+ "SI", "ME", "BA", "HR", "TR", "AL", "AD", "AM", "AZ", "BY", "BG", "EE", "FO",
+ "GE", "IS", "LI", "LT", "MK", "MD", "RO", "SM", "RS", "UA"];
 
 // Bindinng properties to data
 polygonSeries.data = [{
-  "id": "CN",
-  "name": "China",
-  "fill": am4core.color("#F05C5C")
-}, {
-  "id": "KR",
-  "name": "Korea",
-  "fill": am4core.color("#5C5CFF")
-}, {
-  "id": "JP",
-  "name": "Japan",
-  "fill": am4core.color("#CC99FF")
-}, {
-  "id": "ID",
-  "name": "Indonesia",
-  "fill": am4core.color("#9966FF")
-}, {
-  "id": "CA",
-  "name": "Canada",
-  "fill": am4core.color("#FFDD44")
-}, {
   "id": "FR",
   "name": "France",
   "fill": am4core.color("#EEEE44")
@@ -66,10 +49,6 @@ polygonSeries.data = [{
   "id": "PL",
   "name": "Poland",
   "fill": am4core.color("#11CCEE")
-}, {
-  "id": "GB",
-  "name": "United Kingdom",
-  "fill": am4core.color("#003366")
 }, {
   "id": "IT",
   "name": "Italy",
@@ -143,8 +122,8 @@ polygonSeries.data = [{
   "name": "Luxembourg",
   "fill": am4core.color("#2299AA")
 }, {
-  "id": "SK",
-  "name": "Slovakia",
+  "id": "SI",
+  "name": "Slovania",
   "fill": am4core.color("#009999")
 }, {
   "id": "ME",
