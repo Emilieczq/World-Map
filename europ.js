@@ -14,7 +14,7 @@
 var chart = am4core.create("chartdiv", am4maps.MapChart);
 
 // Set map definition
-chart.geodata = am4geodata_worldHigh;
+chart.geodata = am4geodata_worldLow;
 
 // Set projection
 chart.projection = new am4maps.projections.Miller();
